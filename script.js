@@ -76,8 +76,8 @@ function linearSearch(arr, target) {
     return -1;
 }
 
-const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(linearSearch(myArray, 7)); // Ищем 7 и возвращаем его индекс
+const thisArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(linearSearch(thisArray, 7)); // Ищем 7 и возвращаем его индекс
 
 // ----------------------------------------------------------------------------------------------
 // O(n log n) - Сложность n*log(n):
@@ -111,8 +111,8 @@ function merge(left, right) {
     return result.concat(left.slice(leftIndex), right.slice(rightIndex));
 }
 
-const unsortedArray = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
-console.log(mergeSort(unsortedArray)); // Отсортированный массив
+const unsorstedArray = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
+console.log(mergeSort(unsorstedArray)); // Отсортированный массив
 
 // ----------------------------------------------------------------------------------------------
 // O(n^2) - Квадратичная сложность:
